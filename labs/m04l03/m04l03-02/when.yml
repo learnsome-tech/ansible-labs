@@ -1,0 +1,13 @@
+# Ansible Configuration Management at Scale — lesson m04l03 — Conditionals
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m04l03
+# © LearnSome.tech
+---
+- name: Choose a platform task
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  tasks:
+    - name: Explain the platform
+      ansible.builtin.debug:
+        msg: This target is from the Debian family
+      when: ansible_facts.os_family == 'Debian'

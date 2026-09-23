@@ -1,0 +1,17 @@
+# Ansible Configuration Management at Scale — lesson m02l04 — Connections And Privilege Escalation
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m02l04
+# © LearnSome.tech
+---
+- name: Show who the tasks run as
+  hosts: localhost
+  gather_facts: false
+  become: false
+  tasks:
+    - name: Report the numeric user id
+      ansible.builtin.command: id -u
+      register: id_result
+      changed_when: false
+
+    - name: Print it
+      ansible.builtin.debug:
+        msg: "tasks run as user id {{ id_result.stdout }}"

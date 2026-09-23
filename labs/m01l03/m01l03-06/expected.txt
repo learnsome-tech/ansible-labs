@@ -1,0 +1,9 @@
+PLAY [Check the control node] ***
+TASK [Gathering Facts] ***
+ok: [localhost]
+TASK [Report the Ansible version and the Python it runs on] ***
+ok: [localhost] => {
+    "msg": "core 2.21.4 on 3.14.7"
+}
+PLAY RECAP ***
+localhost : ok=2 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0

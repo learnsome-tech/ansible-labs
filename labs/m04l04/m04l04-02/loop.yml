@@ -1,0 +1,18 @@
+# Ansible Configuration Management at Scale — lesson m04l04 — Loops
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m04l04
+# © LearnSome.tech
+---
+- name: Read a short list
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    colors:
+      - blue
+      - green
+      - amber
+  tasks:
+    - name: Show each color
+      ansible.builtin.debug:
+        msg: "Color is {{ item }}"
+      loop: "{{ colors }}"

@@ -1,0 +1,12 @@
+# Ansible Configuration Management at Scale — lesson m03l01 — Playbook Syntax And YAML
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m03l01
+# © LearnSome.tech
+---
+- name: Say hello
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Show a greeting
+      ansible.builtin.debug:
+        msg: Hello from Ansible

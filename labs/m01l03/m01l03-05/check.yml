@@ -1,0 +1,11 @@
+# Ansible Configuration Management at Scale — lesson m01l03 — Installing Ansible
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m01l03
+# © LearnSome.tech
+---
+- name: Check the control node
+  hosts: all
+  gather_facts: true
+  tasks:
+    - name: Report the Ansible version and the Python it runs on
+      ansible.builtin.debug:
+        msg: "core {{ ansible_version.full }} on {{ ansible_python_version }}"

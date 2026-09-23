@@ -1,0 +1,18 @@
+# Ansible Configuration Management at Scale — lesson m02l01 — The Static Inventory File
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m02l01
+# © LearnSome.tech
+---
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+  children:
+    production:
+      children:
+        webservers:
+          hosts:
+            web[1:3].example.com:
+        dbservers:
+          hosts:
+            db1.example.com:
+            db2.example.com:

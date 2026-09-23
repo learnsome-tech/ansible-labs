@@ -1,0 +1,11 @@
+@all:
+  |--@ungrouped:
+  |  |--localhost
+  |--@production:
+  |  |--@webservers:
+  |  |  |--web1.example.com
+  |  |  |--web2.example.com
+  |  |  |--web3.example.com
+  |  |--@dbservers:
+  |  |  |--db1.example.com
+  |  |  |--db2.example.com

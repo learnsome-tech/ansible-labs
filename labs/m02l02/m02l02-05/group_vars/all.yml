@@ -1,0 +1,7 @@
+# Ansible Configuration Management at Scale — lesson m02l02 — Host Groups And Host Variables
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m02l02
+# © LearnSome.tech
+---
+# True of every host in the inventory, unless something nearer overrides it.
+site_name: shop
+http_port: 80

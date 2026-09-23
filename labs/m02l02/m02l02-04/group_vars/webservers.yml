@@ -1,0 +1,7 @@
+# Ansible Configuration Management at Scale — lesson m02l02 — Host Groups And Host Variables
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m02l02
+# © LearnSome.tech
+---
+# True of web servers, and of nothing else.
+http_port: 8080
+document_root: /srv/www

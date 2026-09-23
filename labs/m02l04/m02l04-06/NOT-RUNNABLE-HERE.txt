@@ -1,0 +1,6 @@
+This panel is marked noVerify: privileged.
+
+The transcript in the video is accurate, but it was not produced on the
+build machine, because this listing needs something a build machine does
+not have: managed hosts over ssh, root on the machine itself, a network
+service, or a person at the keyboard. Run it where those exist.

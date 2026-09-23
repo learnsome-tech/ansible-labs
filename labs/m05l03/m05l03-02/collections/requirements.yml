@@ -1,0 +1,7 @@
+# Ansible Configuration Management at Scale — lesson m05l03 — Using Collections
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m05l03
+# © LearnSome.tech
+---
+collections:
+  - name: ansible.posix
+    version: 2.0.0

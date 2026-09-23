@@ -1,0 +1,24 @@
+# Ansible Configuration Management at Scale — lesson m04l06 — Error Handling With Block, Rescue And Always
+# https://learnsome.tech/courses/ansible-course/watch?lesson=m04l06
+# © LearnSome.tech
+---
+- name: Demonstrate recovery
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Manage a guarded change
+      block:
+        - name: Record the start
+          ansible.builtin.copy:
+            content: started\n
+            dest: status.log
+      rescue:
+        - name: Record a failure
+          ansible.builtin.copy:
+            content: failed\n
+            dest: status.log
+      always:
+        - name: Explain cleanup
+          ansible.builtin.debug:
+            msg: Cleanup belongs here
