@@ -1,0 +1,23 @@
+{
+  "lab": "m02l03-03",
+  "lesson": "m02l03",
+  "title": "Running it as an inventory",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-running-it-as-an-inventory.sh",
+  "main": "shell-running-it-as-an-inventory.sh",
+  "files": [
+    "ansible.cfg",
+    "dynamic.py",
+    "inventory",
+    "run.sh",
+    "shell-running-it-as-an-inventory.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

@@ -1,0 +1,10 @@
+---
+- name: Choose a platform task
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  tasks:
+    - name: Explain the platform
+      ansible.builtin.debug:
+        msg: This target is from the Debian family
+      when: ansible_facts.os_family == 'Debian'

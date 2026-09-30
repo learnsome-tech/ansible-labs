@@ -1,6 +1,0 @@
-# Ansible Configuration Management at Scale — lesson m02l02 — Host Groups And Host Variables
-# https://learnsome.tech/courses/ansible-course/watch?lesson=m02l02
-# © LearnSome.tech
----
-# One machine that is different, and the file that admits it.
-http_port: 8443

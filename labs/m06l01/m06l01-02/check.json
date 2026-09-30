@@ -1,0 +1,19 @@
+{
+  "lab": "m06l01-02",
+  "lesson": "m06l01",
+  "title": "An encrypted variables file",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint vault.yml",
+  "main": "vault.yml",
+  "files": [
+    "vault.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

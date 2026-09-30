@@ -1,20 +1,35 @@
-# Writing Your First Playbook
+# m03l02 · Writing Your First Playbook
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Playbooks, Plays And Tasks  
-**Lesson**: `m03l02`
+Module 3: Playbooks, Plays And Tasks · lesson 3.2 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m03l02)
 
-## Links
+**Goal:** You can write a local playbook that creates a directory and a file in its workspace.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m03l02)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-3-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l02-02](m03l02-02/) | Create a directory and a file | Checker |
+| [m03l02-03](m03l02-03/) | Apply the desired state | Read along |
 
-- [`m03l02-02/`](m03l02-02/)
-- [`m03l02-03/`](m03l02-03/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Add one more declared state
+
+1. Add a task that creates a second file under the site directory.
+2. Use the copy module and give the task a descriptive name.
+3. Run the playbook twice and compare the recap counters.
+
+> **Hint:** The second run should report fewer changes than the first.
+
+## Check yourself
+
+- Why should a playbook describe an end state?
+- Which task must run first in this example, and why?
+- What does the file module declare here?
+- What should change on a second identical run?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

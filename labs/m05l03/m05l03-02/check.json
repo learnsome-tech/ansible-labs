@@ -1,0 +1,19 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "Record a collection dependency",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint requirements.yml",
+  "main": "requirements.yml",
+  "files": [
+    "requirements.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

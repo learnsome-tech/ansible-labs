@@ -1,19 +1,35 @@
-# Performance, Forks And Best Practices
+# m06l04 · Performance, Forks And Best Practices
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Security And Practices  
-**Lesson**: `m06l04`
+Module 6: Security And Practices · lesson 6.4 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m06l04)
 
-## Links
+**Goal:** You can choose practical Ansible defaults for speed, clarity, and safe repeatable runs.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m06l04)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-6-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l04-02](m06l04-02/) | Document deliberate defaults | Read along |
 
-- [`m06l04-02/`](m06l04-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Review a playbook for operations
+
+1. Find one task that is not clearly idempotent.
+2. Identify one unnecessary fact gathering step.
+3. Choose a safe fork value for your test environment.
+4. Write one practice you will enforce in review.
+
+> **Hint:** Optimize only after you can explain the current behavior.
+
+## Check yourself
+
+- What does forks control?
+- When can fact caching help?
+- Why prefer small idempotent tasks?
+- Which configuration choices belong in review?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

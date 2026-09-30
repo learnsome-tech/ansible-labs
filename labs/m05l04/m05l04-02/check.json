@@ -1,0 +1,22 @@
+{
+  "lab": "m05l04-02",
+  "lesson": "m05l04",
+  "title": "A reviewed role dependency",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint requirements.yml",
+  "main": "requirements.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "requirements.yml",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

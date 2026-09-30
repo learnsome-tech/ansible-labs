@@ -1,0 +1,22 @@
+{
+  "lab": "m03l02-02",
+  "lesson": "m03l02",
+  "title": "Create a directory and a file",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check site.yml",
+  "main": "site.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "site.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

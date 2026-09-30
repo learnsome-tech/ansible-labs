@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-05",
+  "lesson": "m02l02",
+  "title": "Variables for one host",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint web1.example.com.yml",
+  "main": "web1.example.com.yml",
+  "files": [
+    "web1.example.com.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

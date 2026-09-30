@@ -1,0 +1,22 @@
+{
+  "lab": "m03l03-02",
+  "lesson": "m03l03",
+  "title": "Declare a file state",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check state.yml",
+  "main": "state.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "state.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

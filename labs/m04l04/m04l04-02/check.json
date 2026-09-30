@@ -1,0 +1,22 @@
+{
+  "lab": "m04l04-02",
+  "lesson": "m04l04",
+  "title": "Repeat a debug task",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check loop.yml",
+  "main": "loop.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "loop.yml",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

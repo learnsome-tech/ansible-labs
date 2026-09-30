@@ -1,0 +1,22 @@
+{
+  "lab": "m03l01-02",
+  "lesson": "m03l01",
+  "title": "The smallest useful play",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check hello.yml",
+  "main": "hello.yml",
+  "files": [
+    "ansible.cfg",
+    "hello.yml",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

@@ -1,7 +1,0 @@
-PLAY [Build a tiny site] ***
-TASK [Create the site directory] ***
-changed: [localhost]
-TASK [Write the index page] ***
-changed: [localhost]
-PLAY RECAP ***
-localhost : ok=2 changed=2 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0

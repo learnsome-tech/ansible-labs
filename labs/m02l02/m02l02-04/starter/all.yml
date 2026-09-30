@@ -1,0 +1,4 @@
+---
+# True of every host in the inventory, unless something nearer overrides it.
+site_name: shop
+http_port: 80

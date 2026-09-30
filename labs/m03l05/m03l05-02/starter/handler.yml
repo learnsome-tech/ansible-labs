@@ -1,0 +1,16 @@
+---
+- name: Demonstrate notification
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Write a configuration file
+      ansible.builtin.copy:
+        content: enabled\n
+        dest: app.conf
+      notify: Record a reload
+  handlers:
+    - name: Record a reload
+      ansible.builtin.copy:
+        content: reload requested\n
+        dest: reload.log

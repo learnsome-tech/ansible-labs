@@ -1,0 +1,22 @@
+{
+  "lab": "m04l03-02",
+  "lesson": "m04l03",
+  "title": "Guard a task by family",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check when.yml",
+  "main": "when.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "when.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

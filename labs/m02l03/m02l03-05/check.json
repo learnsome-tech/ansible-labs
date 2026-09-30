@@ -1,0 +1,24 @@
+{
+  "lab": "m02l03-05",
+  "lesson": "m02l03",
+  "title": "What a cloud plugin configuration looks like",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint aws_ec2.yml",
+  "main": "aws_ec2.yml",
+  "files": [
+    "NOT-RUNNABLE-HERE.txt",
+    "ansible.cfg",
+    "aws_ec2.yml",
+    "dynamic.py",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

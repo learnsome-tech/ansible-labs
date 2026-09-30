@@ -1,0 +1,23 @@
+{
+  "lab": "m02l04-06",
+  "lesson": "m02l04",
+  "title": "Become, at the play level and at the task level",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check deploy.yml",
+  "main": "deploy.yml",
+  "files": [
+    "NOT-RUNNABLE-HERE.txt",
+    "ansible.cfg",
+    "deploy.yml",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

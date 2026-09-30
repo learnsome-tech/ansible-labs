@@ -1,0 +1,21 @@
+{
+  "lab": "m01l02-05",
+  "lesson": "m01l02",
+  "title": "Asking Ansible what it thinks the inventory says",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "ansible-inventory --graph",
+  "main": "inventory",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

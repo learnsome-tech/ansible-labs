@@ -1,20 +1,23 @@
-# Handlers And Notify
+# m03l05 · Handlers And Notify
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Playbooks, Plays And Tasks  
-**Lesson**: `m03l05`
+Module 3: Playbooks, Plays And Tasks · lesson 3.5 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m03l05)
 
-## Links
+**Goal:** You can trigger a handler only when a task changes and explain when handlers run.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m03l05)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-3-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l05-02](m03l05-02/) | Notify a local handler | Checker |
+| [m03l05-03](m03l05-03/) | See the handler at the end | Read along |
 
-- [`m03l05-02/`](m03l05-02/)
-- [`m03l05-03/`](m03l05-03/)
+## Check yourself
+
+- When does a handler run?
+- Why can several notifications still produce one handler run?
+- Where is a handler declared?
+- What happens when the notifying task reports okay?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

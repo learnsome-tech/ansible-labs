@@ -1,19 +1,34 @@
-# Testing With Molecule
+# m05l05 · Testing With Molecule
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Roles And Collections  
-**Lesson**: `m05l05`
+Module 5: Roles And Collections · lesson 5.5 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m05l05)
 
-## Links
+**Goal:** You can describe Molecule's role in testing automation and its limits on a single build machine.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m05l05)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-5-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l05-02](m05l05-02/) | A scenario names its phases | Checker |
 
-- [`m05l05-02/`](m05l05-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Write a contract test
+
+1. Choose one observable result your role promises.
+2. Write a verification assertion for that result.
+3. Run the scenario in a disposable driver environment.
+
+> **Hint:** Assert the end state a user depends on.
+
+## Check yourself
+
+- What phases does Molecule separate?
+- What does a driver choose?
+- What should verification assert?
+- Why is scope important in a passing test?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

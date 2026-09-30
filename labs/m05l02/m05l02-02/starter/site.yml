@@ -1,0 +1,9 @@
+---
+- name: Configure the site
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  roles:
+    - role: web
+      vars:
+        site_name: Training site

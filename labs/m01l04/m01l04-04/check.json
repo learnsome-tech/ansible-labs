@@ -1,0 +1,20 @@
+{
+  "lab": "m01l04-04",
+  "lesson": "m01l04",
+  "title": "Watching a verdict change",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "shell-watching-a-verdict-change.sh",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "shell-watching-a-verdict-change.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+}

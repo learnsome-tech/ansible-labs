@@ -1,3 +1,0 @@
-# One host, this machine, reached without ssh. Every command in these
-# artifacts runs against it, so nothing here needs a server.
-localhost ansible_connection=local

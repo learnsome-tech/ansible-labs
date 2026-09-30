@@ -1,0 +1,23 @@
+{
+  "lab": "m04l05-03",
+  "lesson": "m04l05",
+  "title": "Deploy the rendered file",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check template.yml",
+  "main": "template.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "template.yml",
+    "templates/message.j2"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

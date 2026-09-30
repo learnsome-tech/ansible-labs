@@ -1,0 +1,19 @@
+{
+  "lab": "m01l02-06",
+  "lesson": "m01l02",
+  "title": "The second file: settings for this project",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "ansible.cfg",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

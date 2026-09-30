@@ -1,7 +1,0 @@
-# Ansible Configuration Management at Scale — lesson m05l04 — Ansible Galaxy
-# https://learnsome.tech/courses/ansible-course/watch?lesson=m05l04
-# © LearnSome.tech
----
-roles:
-  - name: example.web
-    version: 1.2.0

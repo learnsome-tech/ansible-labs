@@ -1,0 +1,22 @@
+{
+  "lab": "m04l01-02",
+  "lesson": "m04l01",
+  "title": "A variable in a play",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check vars.yml",
+  "main": "vars.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "vars.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

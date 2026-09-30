@@ -1,0 +1,11 @@
+---
+- name: Demonstrate idempotency
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Ensure a marker file exists
+      ansible.builtin.copy:
+        content: managed by ansible\n
+        dest: marker.txt
+        mode: '0644'

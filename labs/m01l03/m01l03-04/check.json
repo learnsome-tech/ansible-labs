@@ -1,0 +1,20 @@
+{
+  "lab": "m01l03-04",
+  "lesson": "m01l03",
+  "title": "Pinning the version, so a team agrees",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "requirements.txt",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "requirements.txt",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

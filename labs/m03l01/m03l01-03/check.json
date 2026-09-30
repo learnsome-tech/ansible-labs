@@ -1,0 +1,23 @@
+{
+  "lab": "m03l01-03",
+  "lesson": "m03l01",
+  "title": "Run the playbook",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "ansible-playbook hello.yml",
+  "main": "hello.yml",
+  "files": [
+    "ansible.cfg",
+    "hello.yml",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
+  "requires": [
+    "ansible-playbook",
+    "bash"
+  ],
+  "note": null
+}

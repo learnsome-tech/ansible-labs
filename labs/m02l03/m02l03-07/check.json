@@ -1,0 +1,24 @@
+{
+  "lab": "m02l03-07",
+  "lesson": "m02l03",
+  "title": "A plugin that builds groups from attributes",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint constructed.yml",
+  "main": "constructed.yml",
+  "files": [
+    "ansible.cfg",
+    "aws_ec2.yml",
+    "constructed.yml",
+    "dynamic.py",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

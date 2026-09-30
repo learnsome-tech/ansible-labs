@@ -1,0 +1,19 @@
+{
+  "lab": "m05l05-02",
+  "lesson": "m05l05",
+  "title": "A scenario names its phases",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint molecule.yml",
+  "main": "molecule.yml",
+  "files": [
+    "molecule.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m06l03-02",
+  "lesson": "m06l03",
+  "title": "Separate group data",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint staging.yml",
+  "main": "staging.yml",
+  "files": [
+    "staging.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

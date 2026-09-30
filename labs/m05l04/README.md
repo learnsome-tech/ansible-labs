@@ -1,19 +1,34 @@
-# Ansible Galaxy
+# m05l04 · Ansible Galaxy
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Roles And Collections  
-**Lesson**: `m05l04`
+Module 5: Roles And Collections · lesson 5.4 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m05l04)
 
-## Links
+**Goal:** You can use Galaxy concepts to find, install, and review reusable Ansible content.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m05l04)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-5-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l04-02](m05l04-02/) | A reviewed role dependency | Checker |
 
-- [`m05l04-02/`](m05l04-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Review before install
+
+1. Choose a Galaxy role that solves a real project need.
+2. Read its dependencies and supported platforms.
+3. Record the chosen version and review date.
+
+> **Hint:** Treat outside automation as source code.
+
+## Check yourself
+
+- What is Galaxy for?
+- Which metadata should you inspect?
+- Why pin a version?
+- How should updates be reviewed?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

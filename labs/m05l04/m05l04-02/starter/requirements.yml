@@ -1,0 +1,4 @@
+---
+roles:
+  - name: example.web
+    version: 1.2.0

@@ -1,0 +1,24 @@
+{
+  "lab": "m01l01-07",
+  "lesson": "m01l01",
+  "title": "The first run does the work",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "ansible-playbook site.yml",
+  "main": "site.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "setup.sh",
+    "site.yml"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
+  "requires": [
+    "ansible-playbook",
+    "bash"
+  ],
+  "note": null
+}

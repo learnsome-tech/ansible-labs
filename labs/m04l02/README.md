@@ -1,19 +1,34 @@
-# Gathering Facts
+# m04l02 · Gathering Facts
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Variables, Facts And Logic  
-**Lesson**: `m04l02`
+Module 4: Variables, Facts And Logic · lesson 4.2 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m04l02)
 
-## Links
+**Goal:** You can inspect gathered facts and use a fact safely in a task.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m04l02)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-4-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l02-02](m04l02-02/) | Inspect a fact | Checker |
 
-- [`m04l02-02/`](m04l02-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Find one useful fact
+
+1. Use a debug task to inspect the operating system family fact.
+2. Add a second task that prints the gathered host name.
+3. Run the play against a different inventory host if one is available.
+
+> **Hint:** Facts are nested under the ansible facts namespace.
+
+## Check yourself
+
+- What is a fact?
+- When does gathering normally happen?
+- Why disable gathering sometimes?
+- Where do gathered facts live?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

@@ -1,0 +1,22 @@
+{
+  "lab": "m04l06-02",
+  "lesson": "m04l06",
+  "title": "A block with recovery",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check block.yml",
+  "main": "block.yml",
+  "files": [
+    "ansible.cfg",
+    "block.yml",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

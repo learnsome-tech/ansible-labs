@@ -1,0 +1,22 @@
+{
+  "lab": "m02l01-07",
+  "lesson": "m02l01",
+  "title": "The same tree, from the other file",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint inventory.yml",
+  "main": "inventory.yml",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "inventory.yml",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

@@ -1,0 +1,11 @@
+---
+- name: Use a play variable
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    greeting: Hello from a variable
+  tasks:
+    - name: Show the greeting
+      ansible.builtin.debug:
+        msg: "{{ greeting }}"

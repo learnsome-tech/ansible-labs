@@ -1,0 +1,17 @@
+---
+- name: Configure the web server
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Create the site directory
+      ansible.builtin.file:
+        path: site
+        state: directory
+        mode: "0755"
+
+    - name: Set the listening port
+      ansible.builtin.lineinfile:
+        path: site/server.conf
+        line: listen 8080
+        create: true
+        mode: "0644"

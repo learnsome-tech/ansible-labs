@@ -1,0 +1,9 @@
+---
+- name: Inspect target facts
+  hosts: localhost
+  connection: local
+  gather_facts: true
+  tasks:
+    - name: Show the host name
+      ansible.builtin.debug:
+        var: ansible_facts.hostname

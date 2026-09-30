@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-03",
+  "lesson": "m02l02",
+  "title": "Variables for every host, in group vars all",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint all.yml",
+  "main": "all.yml",
+  "files": [
+    "all.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

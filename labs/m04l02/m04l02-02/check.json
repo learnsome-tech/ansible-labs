@@ -1,0 +1,22 @@
+{
+  "lab": "m04l02-02",
+  "lesson": "m04l02",
+  "title": "Inspect a fact",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check facts.yml",
+  "main": "facts.yml",
+  "files": [
+    "ansible.cfg",
+    "facts.yml",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

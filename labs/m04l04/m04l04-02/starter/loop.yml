@@ -1,0 +1,15 @@
+---
+- name: Read a short list
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    colors:
+      - blue
+      - green
+      - amber
+  tasks:
+    - name: Show each color
+      ansible.builtin.debug:
+        msg: "Color is {{ item }}"
+      loop: "{{ colors }}"

@@ -1,19 +1,34 @@
-# Securing Data With Ansible Vault
+# m06l01 · Securing Data With Ansible Vault
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Security And Practices  
-**Lesson**: `m06l01`
+Module 6: Security And Practices · lesson 6.1 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m06l01)
 
-## Links
+**Goal:** You can explain what Vault encrypts and keep secret values out of ordinary playbook text.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m06l01)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-6-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l01-02](m06l01-02/) | An encrypted variables file | Checker |
 
-- [`m06l01-02/`](m06l01-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Move one secret behind Vault
+
+1. Choose one non production training secret.
+2. Create an encrypted variables file for it.
+3. Reference the variable from a play without printing it.
+
+> **Hint:** Keep the password prompt and plaintext outside the repository.
+
+## Check yourself
+
+- What does Vault encrypt?
+- Where should the password live?
+- Why can a Vault secret still leak?
+- How should encrypted files be edited?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

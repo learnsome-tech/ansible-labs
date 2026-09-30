@@ -1,0 +1,16 @@
+---
+- name: Build a tiny site
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Create the site directory
+      ansible.builtin.file:
+        path: site
+        state: directory
+        mode: '0755'
+    - name: Write the index page
+      ansible.builtin.copy:
+        content: Welcome to the site\n
+        dest: site/index.html
+        mode: '0644'

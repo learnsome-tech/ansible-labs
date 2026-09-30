@@ -1,0 +1,25 @@
+{
+  "lab": "m02l02-06",
+  "lesson": "m02l02",
+  "title": "Which value actually wins",
+  "mode": "run",
+  "runner": "bash",
+  "command": "bash shell-which-value-actually-wins.sh",
+  "main": "shell-which-value-actually-wins.sh",
+  "files": [
+    "ansible.cfg",
+    "group_vars/all.yml",
+    "group_vars/webservers.yml",
+    "host_vars/web1.example.com.yml",
+    "inventory",
+    "run.sh",
+    "shell-which-value-actually-wins.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "bash"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

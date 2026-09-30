@@ -1,0 +1,23 @@
+{
+  "lab": "m01l01-04",
+  "lesson": "m01l01",
+  "title": "Running it twice",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-running-it-twice.sh",
+  "main": "shell-running-it-twice.sh",
+  "files": [
+    "ansible.cfg",
+    "inventory",
+    "run.sh",
+    "setup.sh",
+    "shell-running-it-twice.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

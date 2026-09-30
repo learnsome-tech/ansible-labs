@@ -1,0 +1,14 @@
+---
+- name: Render a message
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+    owner: Ansible team
+    environment: training
+  tasks:
+    - name: Install the message
+      ansible.builtin.template:
+        src: templates/message.j2
+        dest: message.txt
+        mode: '0644'

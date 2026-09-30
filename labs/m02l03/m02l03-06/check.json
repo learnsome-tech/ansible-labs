@@ -1,0 +1,21 @@
+{
+  "lab": "m02l03-06",
+  "lesson": "m02l03",
+  "title": "The same idea, on a source you can run here",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "inventory",
+  "files": [
+    "ansible.cfg",
+    "aws_ec2.yml",
+    "dynamic.py",
+    "inventory",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

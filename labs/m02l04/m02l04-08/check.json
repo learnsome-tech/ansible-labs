@@ -1,0 +1,24 @@
+{
+  "lab": "m02l04-08",
+  "lesson": "m02l04",
+  "title": "Being explicit about not escalating",
+  "mode": "run",
+  "runner": "recorded",
+  "command": "ansible-playbook who.yml",
+  "main": "who.yml",
+  "files": [
+    "ansible.cfg",
+    "deploy.yml",
+    "inventory",
+    "run.sh",
+    "who.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook",
+    "bash"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

@@ -1,19 +1,34 @@
-# Conditionals
+# m04l03 · Conditionals
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Variables, Facts And Logic  
-**Lesson**: `m04l03`
+Module 4: Variables, Facts And Logic · lesson 4.3 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m04l03)
 
-## Links
+**Goal:** You can guard tasks with a when condition based on variables or facts.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m04l03)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-4-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l03-02](m04l03-02/) | Guard a task by family | Checker |
 
-- [`m04l03-02/`](m04l03-02/)
+## Exercises
+
+Open exercises from the lesson, to try on your own. They have no answer files: work them out, and use the labs above as reference.
+
+### Add a second branch
+
+1. Add a task that runs when the family is not Debian.
+2. Give each task a name that explains its branch.
+3. Run the play and confirm exactly one branch is skipped.
+
+> **Hint:** Use the same fact and a different comparison.
+
+## Check yourself
+
+- How does when differ from a template expression?
+- What does skipped mean?
+- Why use facts in a condition?
+- What makes a branch easy to review?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

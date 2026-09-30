@@ -1,0 +1,23 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "A better test than a version string",
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check check.yml",
+  "main": "check.yml",
+  "files": [
+    "ansible.cfg",
+    "check.yml",
+    "inventory",
+    "requirements.txt",
+    "run.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "ansible-playbook"
+  ],
+  "note": null
+}

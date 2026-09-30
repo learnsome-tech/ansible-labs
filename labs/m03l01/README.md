@@ -1,20 +1,23 @@
-# Playbook Syntax And YAML
+# m03l01 · Playbook Syntax And YAML
 
-**Course**: [Ansible Configuration Management at Scale](https://learnsome.tech/courses/ansible-course)  
-**Module**: Playbooks, Plays And Tasks  
-**Lesson**: `m03l01`
+Module 3: Playbooks, Plays And Tasks · lesson 3.1 · Pro · [Open the lesson](https://learnsome.tech/learn/ansible-course/m03l01)
 
-## Links
+**Goal:** You can read a playbook as YAML and explain how plays and tasks fit together.
 
-- [Watch lesson](https://learnsome.tech/courses/ansible-course/watch?lesson=m03l01)
-- [Handbook](https://learnsome.tech/courses/ansible-course/book#lesson-3-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l01-02](m03l01-02/) | The smallest useful play | Checker |
+| [m03l01-03](m03l01-03/) | Run the playbook | Graded |
 
-- [`m03l01-02/`](m03l01-02/)
-- [`m03l01-03/`](m03l01-03/)
+## Check yourself
+
+- What is the relationship between a play and a task?
+- Why does indentation matter in YAML?
+- What does the hosts field select?
+- Why should every play and task have a name?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [Ansible Configuration Management at Scale on LearnSome.tech](https://learnsome.tech/courses/ansible-course)

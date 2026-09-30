@@ -1,0 +1,20 @@
+{
+  "lab": "m02l02-04",
+  "lesson": "m02l02",
+  "title": "Variables for one group",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint webservers.yml",
+  "main": "webservers.yml",
+  "files": [
+    "all.yml",
+    "webservers.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}
