@@ -23,6 +23,9 @@ In the lesson: Point the same command at it, naming the file with the inventory 
 2. Read `inventory.yml`.
 3. Edit `inventory.yml` and check it: `yamllint inventory.yml`.
 4. Check it from the repository root: `./check m02l01-07`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l01-07 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed inventory.yml`
+   - `strict` (Lint strictly): `yamllint inventory.yml`
 
 ## How to check
 

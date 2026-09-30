@@ -29,6 +29,9 @@ In the lesson: This is the constructed plugin, which ships with the engine, and 
    - Line 3: strict false: a host missing the attribute is skipped, not an error
 4. Edit `constructed.yml` and check it: `yamllint constructed.yml`.
 5. Check it from the repository root: `./check m02l03-07`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l03-07 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed constructed.yml`
+   - `strict` (Lint strictly): `yamllint constructed.yml`
 
 ## How to check
 

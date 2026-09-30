@@ -16,5 +16,18 @@
   "requires": [
     "yamllint"
   ],
+  "tool": "yamllint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "yamllint -d relaxed webservers.yml"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "yamllint webservers.yml"
+    }
+  ],
   "note": null
 }

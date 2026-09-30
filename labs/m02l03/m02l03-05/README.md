@@ -30,6 +30,9 @@ In the lesson: This is the shape you will actually write. The first key names th
    - Line 8: keyed groups: one group per distinct value, named by prefix
 4. Edit `aws_ec2.yml` and check it: `yamllint aws_ec2.yml`.
 5. Check it from the repository root: `./check m02l03-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l03-05 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed aws_ec2.yml`
+   - `strict` (Lint strictly): `yamllint aws_ec2.yml`
 
 ## How to check
 

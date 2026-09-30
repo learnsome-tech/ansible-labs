@@ -30,6 +30,10 @@ In the lesson: Here are the three parts in practice. The word all is the host pa
    ```
 4. Run it: `bash shell-the-shortest-useful-command.sh`.
 5. Check it from the repository root: `./check m01l04-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l04-02 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-the-shortest-useful-command.sh`
+   - `step-1` (Step 1): `ansible all -m ansible.builtin.ping`
+   - `step-2` (Step 2): `ansible all -m ansible.builtin.debug -a msg=hello`
 
 ## Expected output
 

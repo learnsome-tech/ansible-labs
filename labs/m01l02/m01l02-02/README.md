@@ -30,6 +30,10 @@ In the lesson: Start on the control node and ask it which version of the core en
    ```
 4. Run it: `bash shell-what-the-control-node-has.sh`.
 5. Check it from the repository root: `./check m01l02-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l02-02 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-what-the-control-node-has.sh`
+   - `step-1` (Step 1): `ansible --version | head -1`
+   - `step-2` (Step 2): `ansible-doc -l ansible.builtin | head -4`
 
 ## Expected output
 

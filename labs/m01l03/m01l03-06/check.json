@@ -2,9 +2,9 @@
   "lab": "m01l03-06",
   "lesson": "m01l03",
   "title": "The control node, proved",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "ansible-playbook check.yml",
   "main": "check.yml",
   "files": [
     "ansible.cfg",
@@ -14,8 +14,34 @@
     "run.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "ansible",
+  "requires": [
+    "ansible-playbook",
+    "bash"
+  ],
+  "tool": "ansible",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible-playbook check.yml"
+    },
+    {
+      "id": "syntax-check",
+      "label": "Syntax check",
+      "line": "ansible-playbook --syntax-check check.yml"
+    },
+    {
+      "id": "list-tasks",
+      "label": "List tasks",
+      "line": "ansible-playbook --list-tasks check.yml"
+    },
+    {
+      "id": "list-hosts",
+      "label": "List hosts",
+      "line": "ansible-playbook --list-hosts check.yml"
+    }
+  ],
+  "note": null
 }

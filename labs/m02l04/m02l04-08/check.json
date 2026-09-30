@@ -2,7 +2,7 @@
   "lab": "m02l04-08",
   "lesson": "m02l04",
   "title": "Being explicit about not escalating",
-  "mode": "run",
+  "mode": "graded",
   "runner": "recorded",
   "command": "ansible-playbook who.yml",
   "main": "who.yml",
@@ -14,11 +14,34 @@
     "who.yml"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
   "requires": [
     "ansible-playbook",
     "bash"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "tool": "ansible",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible-playbook who.yml"
+    },
+    {
+      "id": "syntax-check",
+      "label": "Syntax check",
+      "line": "ansible-playbook --syntax-check who.yml"
+    },
+    {
+      "id": "list-tasks",
+      "label": "List tasks",
+      "line": "ansible-playbook --list-tasks who.yml"
+    },
+    {
+      "id": "list-hosts",
+      "label": "List hosts",
+      "line": "ansible-playbook --list-hosts who.yml"
+    }
+  ],
+  "note": null
 }

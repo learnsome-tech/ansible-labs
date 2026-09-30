@@ -1,0 +1,10 @@
+PLAY [Preview a text change] ***
+TASK [Write the preview file] ***
+--- before
++++ after: preview.conf
+@@ -0,0 +1 @@
++new configuration\n
+\ No newline at end of file
+changed: [localhost]
+PLAY RECAP ***
+localhost : ok=1 changed=1 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0

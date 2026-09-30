@@ -19,5 +19,22 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-watching-a-verdict-change.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible all -m file -a \"path=demo state=directory\" | head -2"
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible all -m file -a \"path=demo state=directory\" | head -2"
+    }
+  ],
   "note": null
 }

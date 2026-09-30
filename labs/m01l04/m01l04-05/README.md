@@ -30,6 +30,10 @@ In the lesson: Now a module that cannot be idempotent, and it is important to se
    ```
 4. Run it: `bash shell-the-module-that-can-never-be-idempotent.sh`.
 5. Check it from the repository root: `./check m01l04-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l04-05 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-the-module-that-can-never-be-idempotent.sh`
+   - `step-1` (Step 1): `ansible all -m ansible.builtin.command -a "echo hello"`
+   - `step-2` (Step 2): `ansible all -m ansible.builtin.setup -a filter=ansible_system`
 
 ## Expected output
 

@@ -30,6 +30,10 @@ In the lesson: Escalation is set once on the play, and then every task in the pl
    - Line 19: become user without become is the classic mistake; set both
 4. Edit `deploy.yml` and check it: `ansible-playbook --syntax-check deploy.yml`.
 5. Check it from the repository root: `./check m02l04-06`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l04-06 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check deploy.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks deploy.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts deploy.yml`
 
 ## How to check
 

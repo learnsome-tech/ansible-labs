@@ -20,5 +20,18 @@
   "requires": [
     "yamllint"
   ],
+  "tool": "yamllint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "yamllint -d relaxed constructed.yml"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "yamllint constructed.yml"
+    }
+  ],
   "note": null
 }

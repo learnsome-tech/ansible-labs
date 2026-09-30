@@ -30,6 +30,10 @@ In the lesson: Two commands worth knowing when a connection behaves oddly. The f
    ```
 4. Run it: `bash shell-proving-which-account-and-which-machine.sh`.
 5. Check it from the repository root: `./check m02l04-04`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l04-04 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-proving-which-account-and-which-machine.sh`
+   - `step-1` (Step 1): `ansible localhost -m ansible.builtin.command -a "uname -s"`
+   - `step-2` (Step 2): `ansible localhost -m ansible.builtin.command -a "id -u"`
 
 ## Expected output
 

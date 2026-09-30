@@ -20,6 +20,9 @@ In the lesson: An encrypted variables file begins with a Vault header and contin
 2. Read `vault.yml`.
 3. Edit `vault.yml` and check it: `yamllint vault.yml`.
 4. Check it from the repository root: `./check m06l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l01-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed vault.yml`
+   - `strict` (Lint strictly): `yamllint vault.yml`
 
 ## How to check
 

@@ -20,6 +20,9 @@ In the lesson: This group variable file gives staging its own name, port, and lo
 2. Read `staging.yml`.
 3. Edit `staging.yml` and check it: `yamllint staging.yml`.
 4. Check it from the repository root: `./check m06l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l03-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed staging.yml`
+   - `strict` (Lint strictly): `yamllint staging.yml`
 
 ## How to check
 

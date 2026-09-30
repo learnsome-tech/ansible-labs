@@ -25,6 +25,10 @@ In the lesson: This is the smallest useful play. The first line starts a YAML li
    - Line 3: the host pattern selects the inventory target
 4. Edit `hello.yml` and check it: `ansible-playbook --syntax-check hello.yml`.
 5. Check it from the repository root: `./check m03l01-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l01-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check hello.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks hello.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts hello.yml`
 
 ## How to check
 

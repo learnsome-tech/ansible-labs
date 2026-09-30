@@ -9,7 +9,7 @@ Module 3: Playbooks, Plays And Tasks · lesson 3.4 · Pro · [Open the lesson](h
 | Lab | What it is | Check |
 | --- | --- | --- |
 | [m03l04-02](m03l04-02/) | A file whose change is visible | Checker |
-| [m03l04-03](m03l04-03/) | Run the rehearsal | Read along |
+| [m03l04-03](m03l04-03/) | Run the rehearsal | Graded |
 
 ## Exercises
 

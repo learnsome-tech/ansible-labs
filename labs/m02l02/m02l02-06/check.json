@@ -2,7 +2,7 @@
   "lab": "m02l02-06",
   "lesson": "m02l02",
   "title": "Which value actually wins",
-  "mode": "run",
+  "mode": "graded",
   "runner": "bash",
   "command": "bash shell-which-value-actually-wins.sh",
   "main": "shell-which-value-actually-wins.sh",
@@ -16,10 +16,32 @@
     "shell-which-value-actually-wins.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
   "requires": [
     "bash"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-which-value-actually-wins.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible-inventory --host web1.example.com"
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible-inventory --host web2.example.com"
+    },
+    {
+      "id": "step-3",
+      "label": "Step 3",
+      "line": "ansible-inventory --host db1.example.com"
+    }
+  ],
+  "note": null
 }

@@ -19,5 +19,27 @@
   "requires": [
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-running-it-as-an-inventory.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "chmod +x dynamic.py"
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible-inventory -i dynamic.py --graph"
+    },
+    {
+      "id": "step-3",
+      "label": "Step 3",
+      "line": "ansible-inventory -i dynamic.py --host web1.example.com"
+    }
+  ],
   "note": null
 }

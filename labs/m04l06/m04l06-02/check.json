@@ -18,5 +18,23 @@
   "requires": [
     "ansible-playbook"
   ],
+  "tool": "ansible",
+  "commands": [
+    {
+      "id": "syntax-check",
+      "label": "Syntax check",
+      "line": "ansible-playbook --syntax-check block.yml"
+    },
+    {
+      "id": "list-tasks",
+      "label": "List tasks",
+      "line": "ansible-playbook --list-tasks block.yml"
+    },
+    {
+      "id": "list-hosts",
+      "label": "List hosts",
+      "line": "ansible-playbook --list-hosts block.yml"
+    }
+  ],
   "note": null
 }

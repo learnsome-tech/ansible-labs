@@ -19,5 +19,22 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-the-module-that-can-never-be-idempotent.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible all -m ansible.builtin.command -a \"echo hello\""
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible all -m ansible.builtin.setup -a filter=ansible_system"
+    }
+  ],
   "note": null
 }

@@ -23,6 +23,10 @@ In the lesson: The play gathers facts, then guards a debug task with a compariso
 2. Read `when.yml`.
 3. Edit `when.yml` and check it: `ansible-playbook --syntax-check when.yml`.
 4. Check it from the repository root: `./check m04l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l03-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check when.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks when.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts when.yml`
 
 ## How to check
 

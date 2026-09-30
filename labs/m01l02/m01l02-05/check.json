@@ -17,5 +17,12 @@
   "requires": [
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible-inventory --graph"
+    }
+  ],
   "note": null
 }

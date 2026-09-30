@@ -25,6 +25,10 @@ In the lesson: Here is a complete first playbook. It targets localhost through t
    - Line 9: directory is the declared end state
 4. Edit `site.yml` and check it: `ansible-playbook --syntax-check site.yml`.
 5. Check it from the repository root: `./check m03l02-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l02-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check site.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks site.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts site.yml`
 
 ## How to check
 

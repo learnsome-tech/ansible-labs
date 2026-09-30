@@ -11,7 +11,7 @@ Module 1: Introduction And Setup · lesson 1.3 · Free · [Open the lesson](http
 | [m01l03-02](m01l03-02/) | Installing into an environment of its own | Read along |
 | [m01l03-04](m01l03-04/) | Pinning the version, so a team agrees | Read along |
 | [m01l03-05](m01l03-05/) | A better test than a version string | Checker |
-| [m01l03-06](m01l03-06/) | The control node, proved | Read along |
+| [m01l03-06](m01l03-06/) | The control node, proved | Graded |
 
 ## Exercises
 

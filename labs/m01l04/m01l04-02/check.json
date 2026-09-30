@@ -19,5 +19,22 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-the-shortest-useful-command.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible all -m ansible.builtin.ping"
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible all -m ansible.builtin.debug -a msg=hello"
+    }
+  ],
   "note": null
 }

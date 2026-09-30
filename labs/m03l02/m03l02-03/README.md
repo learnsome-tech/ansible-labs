@@ -24,6 +24,11 @@ In the lesson: Apply the desired state. The directory task reports changed becau
 2. Read `site.yml`.
 3. Run it: `ansible-playbook site.yml`.
 4. Check it from the repository root: `./check m03l02-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l02-03 --command=<id>`:
+   - `recorded` (Lesson command): `ansible-playbook site.yml`
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check site.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks site.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts site.yml`
 
 ## Expected output
 

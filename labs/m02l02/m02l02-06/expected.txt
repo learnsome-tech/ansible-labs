@@ -1,0 +1,14 @@
+{
+    "document_root": "/srv/www",
+    "http_port": 8443,
+    "site_name": "shop"
+}
+{
+    "document_root": "/srv/www",
+    "http_port": 8080,
+    "site_name": "shop"
+}
+{
+    "http_port": 80,
+    "site_name": "shop"
+}

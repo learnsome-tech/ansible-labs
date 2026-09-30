@@ -23,6 +23,10 @@ In the lesson: This play writes one relative file, which makes it safe for a reh
 2. Read `preview.yml`.
 3. Edit `preview.yml` and check it: `ansible-playbook --syntax-check preview.yml`.
 4. Check it from the repository root: `./check m03l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l04-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check preview.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks preview.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts preview.yml`
 
 ## How to check
 

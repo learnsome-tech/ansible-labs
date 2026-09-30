@@ -18,5 +18,12 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible all -m ansible.builtin.ping"
+    }
+  ],
   "note": null
 }

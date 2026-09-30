@@ -12,7 +12,7 @@ Module 2: Inventory And Targets · lesson 2.2 · Pro · [Open the lesson](https:
 | [m02l02-03](m02l02-03/) | Variables for every host, in group vars all | Checker |
 | [m02l02-04](m02l02-04/) | Variables for one group | Checker |
 | [m02l02-05](m02l02-05/) | Variables for one host | Checker |
-| [m02l02-06](m02l02-06/) | Which value actually wins | Runs, not graded |
+| [m02l02-06](m02l02-06/) | Which value actually wins | Graded |
 
 ## Exercises
 

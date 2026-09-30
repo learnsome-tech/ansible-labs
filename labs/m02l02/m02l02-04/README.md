@@ -25,6 +25,9 @@ In the lesson: The second file is named after the webservers group, so its conte
    - Line 3: deliberate collision: a nearer group wins over all
 4. Edit `webservers.yml` and check it: `yamllint webservers.yml`.
 5. Check it from the repository root: `./check m02l02-04`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l02-04 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed webservers.yml`
+   - `strict` (Lint strictly): `yamllint webservers.yml`
 
 ## How to check
 

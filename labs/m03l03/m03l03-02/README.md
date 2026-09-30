@@ -25,6 +25,10 @@ In the lesson: This play declares one small state: marker dot txt contains a kno
    - Line 8: copy checks content before writing
 4. Edit `state.yml` and check it: `ansible-playbook --syntax-check state.yml`.
 5. Check it from the repository root: `./check m03l03-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l03-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check state.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks state.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts state.yml`
 
 ## How to check
 

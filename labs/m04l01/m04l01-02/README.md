@@ -23,6 +23,10 @@ In the lesson: This play defines greeting under vars, so the value belongs to th
 2. Read `vars.yml`.
 3. Edit `vars.yml` and check it: `ansible-playbook --syntax-check vars.yml`.
 4. Check it from the repository root: `./check m04l01-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l01-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check vars.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks vars.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts vars.yml`
 
 ## How to check
 

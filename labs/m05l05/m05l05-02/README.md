@@ -20,6 +20,9 @@ In the lesson: This compact scenario names a default driver, one platform, Ansib
 2. Read `molecule.yml`.
 3. Edit `molecule.yml` and check it: `yamllint molecule.yml`.
 4. Check it from the repository root: `./check m05l05-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l05-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed molecule.yml`
+   - `strict` (Lint strictly): `yamllint molecule.yml`
 
 ## How to check
 

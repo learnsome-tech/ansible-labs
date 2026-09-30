@@ -24,6 +24,10 @@ In the lesson: The play supplies two variables and uses the template module to r
 2. Read `template.yml`.
 3. Edit `template.yml` and check it: `ansible-playbook --syntax-check template.yml`.
 4. Check it from the repository root: `./check m04l05-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l05-03 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check template.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks template.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts template.yml`
 
 ## How to check
 

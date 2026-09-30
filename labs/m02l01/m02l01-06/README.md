@@ -28,6 +28,9 @@ In the lesson: The same inventory written in the other supported format. It star
    - Line 11: a host with no settings still ends in a colon
 4. Edit `inventory.yml` and check it: `yamllint inventory.yml`.
 5. Check it from the repository root: `./check m02l01-06`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l01-06 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed inventory.yml`
+   - `strict` (Lint strictly): `yamllint inventory.yml`
 
 ## How to check
 

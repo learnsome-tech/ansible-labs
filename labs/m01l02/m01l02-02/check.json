@@ -19,5 +19,22 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-what-the-control-node-has.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible --version | head -1"
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible-doc -l ansible.builtin | head -4"
+    }
+  ],
   "note": null
 }

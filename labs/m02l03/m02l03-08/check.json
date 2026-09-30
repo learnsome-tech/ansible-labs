@@ -2,7 +2,7 @@
   "lab": "m02l03-08",
   "lesson": "m02l03",
   "title": "Two sources, layered",
-  "mode": "run",
+  "mode": "graded",
   "runner": "recorded",
   "command": "ansible-inventory -i inventory -i constructed.yml --graph",
   "main": "constructed.yml",
@@ -15,10 +15,28 @@
     "run.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
   "requires": [
     "bash"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "tool": "yamllint",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible-inventory -i inventory -i constructed.yml --graph"
+    },
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "yamllint -d relaxed constructed.yml"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "yamllint constructed.yml"
+    }
+  ],
+  "note": null
 }

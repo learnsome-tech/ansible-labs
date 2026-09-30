@@ -32,6 +32,11 @@ In the lesson: Two details decide whether this works. First, it must be executab
    ```
 4. Run it: `bash shell-running-it-as-an-inventory.sh`.
 5. Check it from the repository root: `./check m02l03-03`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l03-03 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-running-it-as-an-inventory.sh`
+   - `step-1` (Step 1): `chmod +x dynamic.py`
+   - `step-2` (Step 2): `ansible-inventory -i dynamic.py --graph`
+   - `step-3` (Step 3): `ansible-inventory -i dynamic.py --host web1.example.com`
 
 ## Expected output
 

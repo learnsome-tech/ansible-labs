@@ -15,5 +15,18 @@
   "requires": [
     "yamllint"
   ],
+  "tool": "yamllint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "yamllint -d relaxed staging.yml"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "yamllint staging.yml"
+    }
+  ],
   "note": null
 }

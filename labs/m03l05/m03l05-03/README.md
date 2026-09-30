@@ -1,7 +1,7 @@
 # m03l05-03 · See the handler at the end
 
 **Lesson:** [Handlers And Notify](https://learnsome.tech/learn/ansible-course/m03l05) (lesson 3.5, module 3: Playbooks, Plays And Tasks) · Pro  
-**Check:** Read along
+**Check:** Graded
 
 ## Goal
 
@@ -15,22 +15,38 @@ In the lesson: The run shows the configuration task first. Because it changed, A
 - [`starter/handler.yml`](starter/handler.yml): the listing from the lesson
 - [`starter/inventory`](starter/inventory)
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
 
-1. Read `starter/handler.yml` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
+1. Go to the starter: `cd labs/m03l05/m03l05-03/starter`
+2. Read `handler.yml`.
+3. Run it: `ansible-playbook handler.yml`.
+4. Check it from the repository root: `./check m03l05-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l05-03 --command=<id>`:
+   - `recorded` (Lesson command): `ansible-playbook handler.yml`
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check handler.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks handler.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts handler.yml`
 
-   ```sh
-   ansible-playbook handler.yml
-   ```
+## Expected output
+
+```text
+PLAY [Demonstrate notification] ***
+TASK [Write a configuration file] ***
+changed: [localhost]
+RUNNING HANDLER [Record a reload] ***
+changed: [localhost]
+PLAY RECAP ***
+localhost : ok=2 changed=2 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0
+```
 
 ## How to check
 
-**Read along.** The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only.
+`./check m03l05-03` copies `starter/` into a scratch directory and runs `ansible-playbook handler.yml` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m03l05-03` says so and moves on.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output and standard error are compared after Ansible's machine-specific noise is set aside: colour, banner padding, column alignment, blank lines and the warnings Ansible prints about the machine it runs on. A pass here is a pass on the site.
 
 ---
 

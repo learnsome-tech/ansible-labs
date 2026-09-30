@@ -8,7 +8,7 @@ Module 5: Roles And Collections · lesson 5.2 · Pro · [Open the lesson](https:
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l02-02](m05l02-02/) | Call a role from a play | Read along |
+| [m05l02-02](m05l02-02/) | Call a role from a play | Checker |
 
 ## Exercises
 

@@ -20,6 +20,9 @@ In the lesson: This requirements file records one collection dependency and a ve
 2. Read `requirements.yml`.
 3. Edit `requirements.yml` and check it: `yamllint requirements.yml`.
 4. Check it from the repository root: `./check m05l03-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l03-02 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed requirements.yml`
+   - `strict` (Lint strictly): `yamllint requirements.yml`
 
 ## How to check
 

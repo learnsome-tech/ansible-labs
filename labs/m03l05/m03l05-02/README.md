@@ -25,6 +25,10 @@ In the lesson: The task writes a relative configuration file and names a handler
    - Line 15: handlers are tasks held for later
 4. Edit `handler.yml` and check it: `ansible-playbook --syntax-check handler.yml`.
 5. Check it from the repository root: `./check m03l05-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l05-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check handler.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks handler.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts handler.yml`
 
 ## How to check
 

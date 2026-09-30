@@ -23,6 +23,10 @@ In the lesson: This play defines a short list and gives one debug task a loop. A
 2. Read `loop.yml`.
 3. Edit `loop.yml` and check it: `ansible-playbook --syntax-check loop.yml`.
 4. Check it from the repository root: `./check m04l04-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l04-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check loop.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks loop.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts loop.yml`
 
 ## How to check
 

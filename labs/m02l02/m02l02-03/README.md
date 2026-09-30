@@ -24,6 +24,9 @@ In the lesson: The first file lives in a directory called group vars, in a file 
    - Line 1: the directory name and the group name are the whole mechanism
 4. Edit `all.yml` and check it: `yamllint all.yml`.
 5. Check it from the repository root: `./check m02l02-03`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l02-03 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed all.yml`
+   - `strict` (Lint strictly): `yamllint all.yml`
 
 ## How to check
 

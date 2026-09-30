@@ -19,5 +19,22 @@
     "ansible",
     "bash"
   ],
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Recorded session",
+      "line": "bash shell-proving-which-account-and-which-machine.sh"
+    },
+    {
+      "id": "step-1",
+      "label": "Step 1",
+      "line": "ansible localhost -m ansible.builtin.command -a \"uname -s\""
+    },
+    {
+      "id": "step-2",
+      "label": "Step 2",
+      "line": "ansible localhost -m ansible.builtin.command -a \"id -u\""
+    }
+  ],
   "note": null
 }

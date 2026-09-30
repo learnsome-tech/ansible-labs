@@ -23,6 +23,10 @@ In the lesson: This play leaves fact gathering enabled and then asks debug to sh
 2. Read `facts.yml`.
 3. Edit `facts.yml` and check it: `ansible-playbook --syntax-check facts.yml`.
 4. Check it from the repository root: `./check m04l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l02-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check facts.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks facts.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts facts.yml`
 
 ## How to check
 

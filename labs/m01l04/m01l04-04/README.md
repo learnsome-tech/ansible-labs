@@ -30,6 +30,10 @@ In the lesson: Idempotency is not a playbook feature. It lives in the modules, s
    ```
 4. Run it: `bash shell-watching-a-verdict-change.sh`.
 5. Check it from the repository root: `./check m01l04-04`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l04-04 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-watching-a-verdict-change.sh`
+   - `step-1` (Step 1): `ansible all -m file -a "path=demo state=directory" | head -2`
+   - `step-2` (Step 2): `ansible all -m file -a "path=demo state=directory" | head -2`
 
 ## Expected output
 

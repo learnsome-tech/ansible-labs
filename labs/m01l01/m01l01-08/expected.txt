@@ -1,0 +1,7 @@
+PLAY [Configure the web server] ***
+TASK [Create the site directory] ***
+ok: [localhost]
+TASK [Set the listening port] ***
+ok: [localhost]
+PLAY RECAP ***
+localhost : ok=2 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0

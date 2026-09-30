@@ -2,9 +2,9 @@
   "lab": "m05l02-02",
   "lesson": "m05l02",
   "title": "Call a role from a play",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "ansible-syntax",
+  "command": "ansible-playbook --syntax-check site.yml",
   "main": "site.yml",
   "files": [
     "ansible.cfg",
@@ -16,6 +16,26 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "requires": [
+    "ansible-playbook"
+  ],
+  "tool": "ansible",
+  "commands": [
+    {
+      "id": "syntax-check",
+      "label": "Syntax check",
+      "line": "ansible-playbook --syntax-check site.yml"
+    },
+    {
+      "id": "list-tasks",
+      "label": "List tasks",
+      "line": "ansible-playbook --list-tasks site.yml"
+    },
+    {
+      "id": "list-hosts",
+      "label": "List hosts",
+      "line": "ansible-playbook --list-hosts site.yml"
+    }
+  ],
+  "note": null
 }

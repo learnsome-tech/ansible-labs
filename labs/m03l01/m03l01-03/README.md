@@ -24,6 +24,11 @@ In the lesson: Now run the playbook. Ansible prints the play name, then the task
 2. Read `hello.yml`.
 3. Run it: `ansible-playbook hello.yml`.
 4. Check it from the repository root: `./check m03l01-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l01-03 --command=<id>`:
+   - `recorded` (Lesson command): `ansible-playbook hello.yml`
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check hello.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks hello.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts hello.yml`
 
 ## Expected output
 

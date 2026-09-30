@@ -19,5 +19,28 @@
     "ansible-playbook",
     "bash"
   ],
+  "tool": "ansible",
+  "commands": [
+    {
+      "id": "recorded",
+      "label": "Lesson command",
+      "line": "ansible-playbook hello.yml"
+    },
+    {
+      "id": "syntax-check",
+      "label": "Syntax check",
+      "line": "ansible-playbook --syntax-check hello.yml"
+    },
+    {
+      "id": "list-tasks",
+      "label": "List tasks",
+      "line": "ansible-playbook --list-tasks hello.yml"
+    },
+    {
+      "id": "list-hosts",
+      "label": "List hosts",
+      "line": "ansible-playbook --list-hosts hello.yml"
+    }
+  ],
   "note": null
 }

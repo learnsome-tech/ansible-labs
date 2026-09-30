@@ -23,6 +23,10 @@ In the lesson: This example shows the three sections without manufacturing a mac
 2. Read `block.yml`.
 3. Edit `block.yml` and check it: `ansible-playbook --syntax-check block.yml`.
 4. Check it from the repository root: `./check m04l06-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l06-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check block.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks block.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts block.yml`
 
 ## How to check
 

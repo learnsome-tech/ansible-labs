@@ -13,7 +13,7 @@ Module 2: Inventory And Targets · lesson 2.3 · Pro · [Open the lesson](https:
 | [m02l03-05](m02l03-05/) | What a cloud plugin configuration looks like | Checker |
 | [m02l03-06](m02l03-06/) | The same idea, on a source you can run here | Read along |
 | [m02l03-07](m02l03-07/) | A plugin that builds groups from attributes | Checker |
-| [m02l03-08](m02l03-08/) | Two sources, layered | Runs, not graded |
+| [m02l03-08](m02l03-08/) | Two sources, layered | Graded |
 
 ## Check yourself
 

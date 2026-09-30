@@ -30,6 +30,10 @@ In the lesson: The same intent, written for Ansible. Take the play at the top fi
    - Line 15: the line should be present; how is the module's problem
 4. Edit `site.yml` and check it: `ansible-playbook --syntax-check site.yml`.
 5. Check it from the repository root: `./check m01l01-06`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l01-06 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check site.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks site.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts site.yml`
 
 ## How to check
 

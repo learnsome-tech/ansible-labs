@@ -12,7 +12,7 @@ Module 1: Introduction And Setup · lesson 1.1 · Free · [Open the lesson](http
 | [m01l01-04](m01l01-04/) | Running it twice | Graded |
 | [m01l01-06](m01l01-06/) | The same intent, as a playbook | Checker |
 | [m01l01-07](m01l01-07/) | The first run does the work | Graded |
-| [m01l01-08](m01l01-08/) | The second run does nothing at all | Read along |
+| [m01l01-08](m01l01-08/) | The second run does nothing at all | Graded |
 
 ## Check yourself
 

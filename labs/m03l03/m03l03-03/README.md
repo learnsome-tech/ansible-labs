@@ -24,6 +24,11 @@ In the lesson: The first run observes that the marker file is missing, so the ta
 2. Read `state.yml`.
 3. Run it: `ansible-playbook state.yml`.
 4. Check it from the repository root: `./check m03l03-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l03-03 --command=<id>`:
+   - `recorded` (Lesson command): `ansible-playbook state.yml`
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check state.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks state.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts state.yml`
 
 ## Expected output
 

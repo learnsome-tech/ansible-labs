@@ -31,6 +31,11 @@ In the lesson: There is a flag that resolves a pattern and prints the answer wit
    ```
 4. Run it: `bash shell-trying-patterns-without-running-anything.sh`.
 5. Check it from the repository root: `./check m02l01-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m02l01-05 --command=<id>`:
+   - `recorded` (Recorded session): `bash shell-trying-patterns-without-running-anything.sh`
+   - `step-1` (Step 1): `ansible production --list-hosts`
+   - `step-2` (Step 2): `ansible 'production:!dbservers' --list-hosts`
+   - `step-3` (Step 3): `ansible 'db*' --list-hosts`
 
 ## Expected output
 

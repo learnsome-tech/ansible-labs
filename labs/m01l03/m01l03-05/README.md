@@ -28,6 +28,10 @@ In the lesson: A version string proves the command exists. It does not prove the
    - Line 8: double curly braces: a value looked up when the task runs
 4. Edit `check.yml` and check it: `ansible-playbook --syntax-check check.yml`.
 5. Check it from the repository root: `./check m01l03-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l03-05 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check check.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks check.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts check.yml`
 
 ## How to check
 

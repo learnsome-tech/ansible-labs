@@ -20,5 +20,18 @@
   "requires": [
     "yamllint"
   ],
+  "tool": "yamllint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "yamllint -d relaxed aws_ec2.yml"
+    },
+    {
+      "id": "strict",
+      "label": "Lint strictly",
+      "line": "yamllint aws_ec2.yml"
+    }
+  ],
   "note": null
 }

@@ -9,7 +9,7 @@ Module 3: Playbooks, Plays And Tasks · lesson 3.5 · Pro · [Open the lesson](h
 | Lab | What it is | Check |
 | --- | --- | --- |
 | [m03l05-02](m03l05-02/) | Notify a local handler | Checker |
-| [m03l05-03](m03l05-03/) | See the handler at the end | Read along |
+| [m03l05-03](m03l05-03/) | See the handler at the end | Graded |
 
 ## Check yourself
 

@@ -1,7 +1,7 @@
 # m05l02-02 · Call a role from a play
 
 **Lesson:** [Writing A Role](https://learnsome.tech/learn/ansible-course/m05l02) (lesson 5.2, module 5: Roles And Collections) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -20,18 +20,20 @@ In the lesson: This play delegates its work to the web role and passes one varia
 
 ## Steps
 
-1. Read `starter/site.yml` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   cat site.yml
-   ```
+1. Go to the starter: `cd labs/m05l02/m05l02-02/starter`
+2. Read `site.yml`.
+3. Edit `site.yml` and check it: `ansible-playbook --syntax-check site.yml`.
+4. Check it from the repository root: `./check m05l02-02`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l02-02 --command=<id>`:
+   - `syntax-check` (Syntax check): `ansible-playbook --syntax-check site.yml`
+   - `list-tasks` (List tasks): `ansible-playbook --list-tasks site.yml`
+   - `list-hosts` (List hosts): `ansible-playbook --list-hosts site.yml`
 
 ## How to check
 
-**Read along.** The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only.
+`./check m05l02-02` copies `starter/` into a scratch directory and runs `ansible-playbook --syntax-check site.yml` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m05l02-02` says so and moves on.
+This is a checker lab: it runs `ansible-playbook --syntax-check` against localhost: it parses the playbook and what it includes without running any task. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 
