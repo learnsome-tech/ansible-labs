@@ -10,7 +10,7 @@ ansible all -m ansible.builtin.command -a "echo hello"
 ansible all -m ansible.builtin.setup -a filter=ansible_system
 #   localhost | SUCCESS => {
 #       "ansible_facts": {
-#           "ansible_system": "Darwin"
+#           "ansible_system": "Linux"
 #       },
 #       "changed": false
 #   }

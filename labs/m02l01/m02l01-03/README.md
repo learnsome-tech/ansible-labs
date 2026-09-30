@@ -1,7 +1,7 @@
 # m02l01-03 · Reading it back as a tree
 
 **Lesson:** [The Static Inventory File](https://learnsome.tech/learn/ansible-course/m02l01) (lesson 2.1, module 2: Inventory And Targets) · Pro  
-**Check:** Runs, not graded
+**Check:** Graded
 
 ## Goal
 
@@ -14,6 +14,7 @@ In the lesson: Read it back as a tree. Three things in this output are worth pau
 - [`starter/ansible.cfg`](starter/ansible.cfg)
 - [`starter/inventory`](starter/inventory): the listing from the lesson
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
@@ -23,9 +24,7 @@ In the lesson: Read it back as a tree. Three things in this output are worth pau
 3. Run it: `ansible-inventory --graph`.
 4. Check it from the repository root: `./check m02l01-03`.
 
-## What the lesson recorded
-
-Shown for reference; the check does not compare it.
+## Expected output
 
 ```text
 @all:
@@ -45,7 +44,7 @@ Shown for reference; the check does not compare it.
 
 `./check m02l01-03` copies `starter/` into a scratch directory and runs `ansible-inventory --graph` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-It runs without a pass or fail: what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail. `./check` shows the output and the exit code.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output and standard error are compared after Ansible's machine-specific noise is set aside: colour, banner padding, column alignment, blank lines and the warnings Ansible prints about the machine it runs on. A pass here is a pass on the site.
 
 ---
 

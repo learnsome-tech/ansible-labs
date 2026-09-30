@@ -1,0 +1,8 @@
+localhost | CHANGED | rc=0 >>
+hello
+localhost | SUCCESS => {
+    "ansible_facts": {
+        "ansible_system": "Linux"
+    },
+    "changed": false
+}

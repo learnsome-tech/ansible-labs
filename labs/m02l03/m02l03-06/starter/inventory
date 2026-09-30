@@ -1,3 +1,5 @@
-# One host, this machine, reached without ssh. Every command in these
-# artifacts runs against it, so nothing here needs a server.
-localhost ansible_connection=local
+# Attributes on each host, exactly as a cloud provider would carry tags.
+localhost ansible_connection=local role=web tier=prod
+web1.example.com role=web tier=prod
+db1.example.com role=db tier=prod
+db2.example.com role=db tier=staging

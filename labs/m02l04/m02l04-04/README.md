@@ -1,7 +1,7 @@
 # m02l04-04 · Proving which account and which machine
 
 **Lesson:** [Connections And Privilege Escalation](https://learnsome.tech/learn/ansible-course/m02l04) (lesson 2.4, module 2: Inventory And Targets) · Pro  
-**Check:** Read along
+**Check:** Graded
 
 ## Goal
 
@@ -15,22 +15,36 @@ In the lesson: Two commands worth knowing when a connection behaves oddly. The f
 - [`starter/inventory`](starter/inventory)
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
 - [`starter/shell-proving-which-account-and-which-machine.sh`](starter/shell-proving-which-account-and-which-machine.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
 
-1. Read `starter/shell-proving-which-account-and-which-machine.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
+1. Go to the starter: `cd labs/m02l04/m02l04-04/starter`
+2. Read `shell-proving-which-account-and-which-machine.sh`.
+3. The session types these commands, in order:
 
    ```sh
-   bash shell-proving-which-account-and-which-machine.sh
+   ansible localhost -m ansible.builtin.command -a "uname -s"
+   ansible localhost -m ansible.builtin.command -a "id -u"
    ```
+4. Run it: `bash shell-proving-which-account-and-which-machine.sh`.
+5. Check it from the repository root: `./check m02l04-04`.
+
+## Expected output
+
+```text
+localhost | CHANGED | rc=0 >>
+Linux
+localhost | CHANGED | rc=0 >>
+10001
+```
 
 ## How to check
 
-**Read along.** The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only.
+`./check m02l04-04` copies `starter/` into a scratch directory and runs `bash shell-proving-which-account-and-which-machine.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m02l04-04` says so and moves on.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. The expected output is the output recorded in the session itself (its `#   ` comment lines), collected into `expected.txt`. Output is compared line by line; spaces at the end of a line and blank lines at the end do not count, and if that differs standard output followed by standard error is compared with Python traceback frames and blank lines set aside. A pass here is a pass on the site.
 
 ---
 

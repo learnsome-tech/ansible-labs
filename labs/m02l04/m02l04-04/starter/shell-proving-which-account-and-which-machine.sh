@@ -6,7 +6,7 @@ set -u
 
 ansible localhost -m ansible.builtin.command -a "uname -s"
 #   localhost | CHANGED | rc=0 >>
-#   Darwin
+#   Linux
 ansible localhost -m ansible.builtin.command -a "id -u"
 #   localhost | CHANGED | rc=0 >>
-#   502
+#   10001

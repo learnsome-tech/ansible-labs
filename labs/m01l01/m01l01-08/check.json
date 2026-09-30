@@ -11,7 +11,8 @@
     "inventory",
     "run.sh",
     "setup.sh",
-    "site.yml"
+    "site.yml",
+    "site/server.conf"
   ],
   "stdin": null,
   "expected": null,

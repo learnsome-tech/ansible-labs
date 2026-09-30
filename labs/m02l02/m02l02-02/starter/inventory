@@ -1,3 +1,11 @@
-# One host, this machine, reached without ssh. Every command in these
-# artifacts runs against it, so nothing here needs a server.
 localhost ansible_connection=local
+
+[webservers]
+web[1:3].example.com
+
+[dbservers]
+db1.example.com
+
+[production:children]
+webservers
+dbservers

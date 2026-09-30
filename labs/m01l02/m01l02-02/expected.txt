@@ -1,0 +1,5 @@
+ansible [core 2.21.4]
+ansible.builtin.add_host               Add a host (and alternatively a grou...
+ansible.builtin.apt                    Manages apt-packages
+ansible.builtin.apt_key                Add or remove an apt key
+ansible.builtin.apt_repository         Add and remove APT repositories

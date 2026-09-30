@@ -2,7 +2,7 @@
   "lab": "m02l01-03",
   "lesson": "m02l01",
   "title": "Reading it back as a tree",
-  "mode": "run",
+  "mode": "graded",
   "runner": "recorded",
   "command": "ansible-inventory --graph",
   "main": "inventory",
@@ -12,10 +12,10 @@
     "run.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "ansible",
   "requires": [
     "bash"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "note": null
 }

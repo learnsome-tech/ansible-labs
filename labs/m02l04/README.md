@@ -9,7 +9,7 @@ Module 2: Inventory And Targets · lesson 2.4 · Pro · [Open the lesson](https:
 | Lab | What it is | Check |
 | --- | --- | --- |
 | [m02l04-02](m02l04-02/) | The connection variables in an inventory | Read along |
-| [m02l04-04](m02l04-04/) | Proving which account and which machine | Read along |
+| [m02l04-04](m02l04-04/) | Proving which account and which machine | Graded |
 | [m02l04-06](m02l04-06/) | Become, at the play level and at the task level | Checker |
 | [m02l04-08](m02l04-08/) | Being explicit about not escalating | Runs, not graded |
 

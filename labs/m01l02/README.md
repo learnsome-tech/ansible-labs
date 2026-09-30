@@ -8,7 +8,7 @@ Module 1: Introduction And Setup · lesson 1.2 · Free · [Open the lesson](http
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m01l02-02](m01l02-02/) | What the control node has | Runs, not graded |
+| [m01l02-02](m01l02-02/) | What the control node has | Graded |
 | [m01l02-04](m01l02-04/) | The first of the two files that matter | Read along |
 | [m01l02-05](m01l02-05/) | Asking Ansible what it thinks the inventory says | Graded |
 | [m01l02-06](m01l02-06/) | The second file: settings for this project | Read along |

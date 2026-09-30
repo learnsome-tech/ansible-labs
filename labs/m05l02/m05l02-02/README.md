@@ -13,6 +13,7 @@ In the lesson: This play delegates its work to the web role and passes one varia
 
 - [`starter/ansible.cfg`](starter/ansible.cfg)
 - [`starter/inventory`](starter/inventory)
+- [`starter/roles/web/README.md`](starter/roles/web/README.md)
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
 - [`starter/site.yml`](starter/site.yml): the listing from the lesson
 - [`check.json`](check.json): how `./check` runs and checks this lab

@@ -2,9 +2,9 @@
   "lab": "m03l02-03",
   "lesson": "m03l02",
   "title": "Apply the desired state",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "ansible-playbook site.yml",
   "main": "site.yml",
   "files": [
     "ansible.cfg",
@@ -13,8 +13,11 @@
     "site.yml"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "ansible",
+  "requires": [
+    "ansible-playbook",
+    "bash"
+  ],
+  "note": null
 }

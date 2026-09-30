@@ -1,7 +1,7 @@
 # m01l02-02 · What the control node has
 
 **Lesson:** [Ansible Architecture And The Control Node](https://learnsome.tech/learn/ansible-course/m01l02) (lesson 1.2, module 1: Introduction And Setup) · Free  
-**Check:** Runs, not graded
+**Check:** Graded
 
 ## Goal
 
@@ -15,6 +15,7 @@ In the lesson: Start on the control node and ask it which version of the core en
 - [`starter/inventory`](starter/inventory)
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
 - [`starter/shell-what-the-control-node-has.sh`](starter/shell-what-the-control-node-has.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
@@ -30,11 +31,21 @@ In the lesson: Start on the control node and ask it which version of the core en
 4. Run it: `bash shell-what-the-control-node-has.sh`.
 5. Check it from the repository root: `./check m01l02-02`.
 
+## Expected output
+
+```text
+ansible [core 2.21.4]
+ansible.builtin.add_host               Add a host (and alternatively a grou...
+ansible.builtin.apt                    Manages apt-packages
+ansible.builtin.apt_key                Add or remove an apt key
+ansible.builtin.apt_repository         Add and remove APT repositories
+```
+
 ## How to check
 
 `./check m01l02-02` copies `starter/` into a scratch directory and runs `bash shell-what-the-control-node-has.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-It runs without a pass or fail: what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail. `./check` shows the output and the exit code.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. The expected output is the output recorded in the session itself (its `#   ` comment lines), collected into `expected.txt`. Output is compared line by line; spaces at the end of a line and blank lines at the end do not count, and if that differs standard output followed by standard error is compared with Python traceback frames and blank lines set aside. A pass here is a pass on the site.
 
 ---
 

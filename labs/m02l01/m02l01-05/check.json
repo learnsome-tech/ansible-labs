@@ -2,9 +2,9 @@
   "lab": "m02l01-05",
   "lesson": "m02l01",
   "title": "Trying patterns without running anything",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-trying-patterns-without-running-anything.sh",
   "main": "shell-trying-patterns-without-running-anything.sh",
   "files": [
     "ansible.cfg",
@@ -13,8 +13,11 @@
     "shell-trying-patterns-without-running-anything.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "ansible",
+    "bash"
+  ],
+  "note": null
 }

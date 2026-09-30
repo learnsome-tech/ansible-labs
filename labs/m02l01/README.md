@@ -9,8 +9,8 @@ Module 2: Inventory And Targets · lesson 2.1 · Pro · [Open the lesson](https:
 | Lab | What it is | Check |
 | --- | --- | --- |
 | [m02l01-02](m02l01-02/) | A static inventory in the ini form | Read along |
-| [m02l01-03](m02l01-03/) | Reading it back as a tree | Runs, not graded |
-| [m02l01-05](m02l01-05/) | Trying patterns without running anything | Read along |
+| [m02l01-03](m02l01-03/) | Reading it back as a tree | Graded |
+| [m02l01-05](m02l01-05/) | Trying patterns without running anything | Graded |
 | [m02l01-06](m02l01-06/) | The same inventory in the YAML form | Checker |
 | [m02l01-07](m02l01-07/) | The same tree, from the other file | Checker |
 

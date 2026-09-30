@@ -2,7 +2,7 @@
   "lab": "m01l02-02",
   "lesson": "m01l02",
   "title": "What the control node has",
-  "mode": "run",
+  "mode": "graded",
   "runner": "bash",
   "command": "bash shell-what-the-control-node-has.sh",
   "main": "shell-what-the-control-node-has.sh",
@@ -13,11 +13,11 @@
     "shell-what-the-control-node-has.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
   "requires": [
     "ansible",
     "bash"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "note": null
 }

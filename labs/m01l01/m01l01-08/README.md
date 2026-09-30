@@ -16,6 +16,7 @@ In the lesson: Now run it again without changing anything. Every task still runs
 - [`starter/run.sh`](starter/run.sh): the command the lesson ran
 - [`starter/setup.sh`](starter/setup.sh)
 - [`starter/site.yml`](starter/site.yml): the listing from the lesson
+- [`starter/site/server.conf`](starter/site/server.conf)
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps

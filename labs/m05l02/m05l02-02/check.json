@@ -9,6 +9,7 @@
   "files": [
     "ansible.cfg",
     "inventory",
+    "roles/web/README.md",
     "run.sh",
     "site.yml"
   ],

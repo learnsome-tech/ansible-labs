@@ -1,0 +1,7 @@
+localhost | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+localhost | SUCCESS => {
+    "msg": "hello"
+}

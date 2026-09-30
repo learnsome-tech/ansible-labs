@@ -8,9 +8,9 @@ Module 1: Introduction And Setup · lesson 1.4 · Pro · [Open the lesson](https
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m01l04-02](m01l04-02/) | The shortest useful command | Read along |
-| [m01l04-04](m01l04-04/) | Watching a verdict change | Read along |
-| [m01l04-05](m01l04-05/) | The module that can never be idempotent | Read along |
+| [m01l04-02](m01l04-02/) | The shortest useful command | Graded |
+| [m01l04-04](m01l04-04/) | Watching a verdict change | Graded |
+| [m01l04-05](m01l04-05/) | The module that can never be idempotent | Graded |
 
 ## Exercises
 

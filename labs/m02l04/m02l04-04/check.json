@@ -2,9 +2,9 @@
   "lab": "m02l04-04",
   "lesson": "m02l04",
   "title": "Proving which account and which machine",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-proving-which-account-and-which-machine.sh",
   "main": "shell-proving-which-account-and-which-machine.sh",
   "files": [
     "ansible.cfg",
@@ -13,8 +13,11 @@
     "shell-proving-which-account-and-which-machine.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "ansible",
+    "bash"
+  ],
+  "note": null
 }

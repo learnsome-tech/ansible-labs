@@ -35,7 +35,7 @@ TASK [Report the numeric user id] ***
 ok: [localhost]
 TASK [Print it] ***
 ok: [localhost] => {
-    "msg": "tasks run as user id 502"
+    "msg": "tasks run as user id 10001"
 }
 PLAY RECAP ***
 localhost : ok=2 changed=0 unreachable=0 failed=0 skipped=0 rescued=0 ignored=0

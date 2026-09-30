@@ -9,7 +9,7 @@ Module 3: Playbooks, Plays And Tasks · lesson 3.2 · Pro · [Open the lesson](h
 | Lab | What it is | Check |
 | --- | --- | --- |
 | [m03l02-02](m03l02-02/) | Create a directory and a file | Checker |
-| [m03l02-03](m03l02-03/) | Apply the desired state | Read along |
+| [m03l02-03](m03l02-03/) | Apply the desired state | Graded |
 
 ## Exercises
 

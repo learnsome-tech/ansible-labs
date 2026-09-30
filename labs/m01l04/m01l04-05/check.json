@@ -2,9 +2,9 @@
   "lab": "m01l04-05",
   "lesson": "m01l04",
   "title": "The module that can never be idempotent",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-the-module-that-can-never-be-idempotent.sh",
   "main": "shell-the-module-that-can-never-be-idempotent.sh",
   "files": [
     "ansible.cfg",
@@ -13,8 +13,11 @@
     "shell-the-module-that-can-never-be-idempotent.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "ansible",
+    "bash"
+  ],
+  "note": null
 }

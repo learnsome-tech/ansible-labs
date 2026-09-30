@@ -5,18 +5,18 @@
 set -u
 
 ansible production --list-hosts
-#   hosts (5):
-#   web1.example.com
-#   web2.example.com
-#   web3.example.com
-#   db1.example.com
-#   db2.example.com
+#     hosts (5):
+#       web1.example.com
+#       web2.example.com
+#       web3.example.com
+#       db1.example.com
+#       db2.example.com
 ansible 'production:!dbservers' --list-hosts
-#   hosts (3):
-#   web1.example.com
-#   web2.example.com
-#   web3.example.com
+#     hosts (3):
+#       web1.example.com
+#       web2.example.com
+#       web3.example.com
 ansible 'db*' --list-hosts
-#   hosts (2):
-#   db1.example.com
-#   db2.example.com
+#     hosts (2):
+#       db1.example.com
+#       db2.example.com
